@@ -2,6 +2,14 @@
 	.header img {
 		width: 100px;
 	}
+	.top{
+		height: 150px;
+		background-image: url("../img/brown.jpg");
+	}
+	.top p{
+		font-size: 20px;
+		padding-top: 50px;
+	}
 
 
 }
