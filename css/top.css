@@ -1,8 +1,9 @@
 .base{
 	width:100%;
 	background-color: #DDF1F5;
+	padding-bottom: 30px;
 }
-.base p{
+.base p, .base h1{
 	margin: 0;
 }
 .top{
@@ -16,6 +17,24 @@
 	padding-top: 200px;
 }
 .main{
-	width: 98%;
+	width: 900px;
 	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 15px;
+}
+.button{
+	background-color: rgba(255,38,0,0.8);
+	border-radius: 8px;
+	padding: 5px;
+	margin-bottom: 10px;
+	display: block;
+	text-decoration: none;
+}
+.button:hover{
+	opacity: 0.8;
+}
+.btn3{
+	width: 50px;
 }
